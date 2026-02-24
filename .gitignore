@@ -1,0 +1,39 @@
+## Visual Studio / .NET Core
+bin/
+obj/
+[Dd]ebug/
+[Rr]elease/
+*.user
+*.userosscache
+*.sln.docstates
+.vs/
+.idea/
+
+## User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+## Build results
+[Bb]in/
+[Oo]bj/
+
+## Publishing
+publish/
+[Pp]ublish/
+
+## Environment Variables
+.env
+appsettings.Development.json
+
+## Node.js (if any frontend is added later)
+node_modules/
+dist/
+build/
+.npm/
+
+## OS specific files
+.DS_Store
+Thumbs.db
