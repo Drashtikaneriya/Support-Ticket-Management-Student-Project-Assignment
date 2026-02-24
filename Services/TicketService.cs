@@ -9,11 +9,11 @@ namespace Student_Project_Assignment.Services
         {
             // Strict forward transition only:
             // OPEN → IN_PROGRESS → RESOLVED → CLOSED
-            
+
             if (currentStatus == TicketStatus.OPEN && newStatus == TicketStatus.IN_PROGRESS) return true;
             if (currentStatus == TicketStatus.IN_PROGRESS && newStatus == TicketStatus.RESOLVED) return true;
             if (currentStatus == TicketStatus.RESOLVED && newStatus == TicketStatus.CLOSED) return true;
-            
+
             return false;
         }
 

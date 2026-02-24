@@ -2,7 +2,7 @@ using System;
 //using System.identitymodel.tokens.jwt;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
-using System.Text;  
+using System.Text;
 using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
 using Student_Project_Assignment.Models;

@@ -1,8 +1,9 @@
 namespace Student_Project_Assignment.Enums
 {
-    public enum TicketPriority {
+    public enum TicketPriority
+    {
         LOW, MEDIUM,
-         HIGH,
+        HIGH,
         URGENT
     }
 }
