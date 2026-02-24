@@ -39,11 +39,6 @@ Data/           - AppDbContext, Seeding, and Data configurations.
 | `PATCH` | `/api/tickets/{id}/status` | SUPPORT/MANAGER | Update ticket status |
 | `POST` | `/api/users` | MANAGER | Create new users (Support/Manager) |
 
-## 📸 Screenshots
-*(Add your project screenshots here)*
-<p align="center">
-  <img src="https://via.placeholder.com/800x400?text=Swagger+UI+Documentation" alt="Swagger UI" width="700">
-</p>
 
 ## 🛡 License
 Distributed under the MIT License. See `LICENSE` for more information.
