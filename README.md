@@ -28,31 +28,6 @@ DTOs/           - Data Transfer Objects for clean API contracts.
 Data/           - AppDbContext, Seeding, and Data configurations.
 ```
 
-## 🛠 Setup & Installation
-
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/Drashtikaneriya/Support-Ticket-Management-Student-Project-Assignment.git
-   cd Support-Ticket-Management-Student-Project-Assignment
-   ```
-
-2. **Configure Database**:
-   Update `appsettings.json` with your connection string:
-   ```json
-   "ConnectionStrings": {
-     "DefaultConnection": "Server=YOUR_SERVER;Database=TicketDB;Trusted_Connection=True;"
-   }
-   ```
-
-3. **Apply Migrations**:
-   ```bash
-   dotnet ef database update
-   ```
-
-4. **Run Project**:
-   ```bash
-   dotnet run
-   ```
 
 ## 🔌 API Endpoints
 
